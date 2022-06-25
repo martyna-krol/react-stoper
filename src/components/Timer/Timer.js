@@ -1,13 +1,10 @@
 import styles from './Timer.module.scss';
-import Button from './../Button/Button';
+import { useState } from 'react';
 
 const Timer = () => {
     return (
         <div>
             <p className={styles.timer}>00:00:00.0</p>
-            <Button>Start</Button>
-            <Button>Stop</Button>
-            <Button>Reset</Button>
         </div>
     );
 };

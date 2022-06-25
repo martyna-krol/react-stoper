@@ -1,12 +1,19 @@
-// import Timer from './components/Timer/Timer'
+import Timer from './components/Timer/Timer'
+import Container from './components/Container/Container'
+import Button from './components/Button/Button';
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      hello world
-    </div>
+    <Container>
+      <Timer />
+      <Button>Start</Button>
+      <Button>Stop</Button>
+      <Button>Reset</Button>
+    </Container>
   );
-}
+};
+
+
 
 export default App;
